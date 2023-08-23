@@ -5,7 +5,7 @@
 # 次选字词
 
 ---
-name: openfly.secondary.char
+name: openfly.secondary
 version: "v9.9m"
 sort: by_weight
 use_preset_vocabulary: false
