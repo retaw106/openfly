@@ -14,3 +14,6 @@ patch_files:
     - patch/+:
         "switcher/save_options/+":
           - "openfly_enable_2nd_short"
+        "ascii_composer/switch_key/Shift_L": commit_code
+        "ascii_composer/switch_key/Shift_R": commit_code
+        "ascii_composer/switch_key/Caps_Lock": noop
