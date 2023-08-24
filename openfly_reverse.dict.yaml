@@ -5,7 +5,7 @@
 
 ---
 name: openfly_reverse
-version: "v9.9m"
+version: "r_1.0"
 sort: original
 use_preset_vocabulary: false
 ...

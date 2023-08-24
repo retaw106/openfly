@@ -4,10 +4,11 @@
 schema:
   schema_id: openfly
   name: 开源小鹤
-  version: "v9.9m"
+  version: "r_1.0"
   author:
     - 方案设计：何海峰 <flypy@qq.com>
     - 修改：amorphobia <xu350n9@gmail.com>
+    - 修改：Retaw Jin <retaw106@hotmail.com>
   description:
     词库开源的小鹤音形 Rime 配方
   dependencies:
