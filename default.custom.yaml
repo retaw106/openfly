@@ -1,13 +1,9 @@
-customization:
-  distribution_code_name: Weasel
-  distribution_version: 0.15.0.0
-  generator: "Rime::SwitcherSettings"
-  modified_time: "Wed Aug 23 22:12:23 2023"
-  rime_version: 1.8.5
 patch:
+  "ascii_composer/switch_key/Shift_L": commit_code
+  "ascii_composer/switch_key/Shift_R": commit_code
+  "ascii_composer/switch_key/Caps_Lock": noop
   schema_list:
-    - {schema: luna_pinyin}
-    - {schema: luna_pinyin_fluency}
     - {schema: openfly}
+    - {schema: luna_pinyin}
   "switcher/save_options/+":
     - openfly_enable_2nd_short
