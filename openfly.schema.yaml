@@ -62,9 +62,9 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: "abcdefghijklmnopqrstuvwxyz;'"
+  alphabet: "abcdefghijklmnopqrstuvwxyz;'/"
   initials: ';abcdefghijklmnopqrstuvwxyz'
-  finals: "'"
+  finals: "'/"
   max_code_length: 4
   auto_select: true   #顶字上屏
   auto_select_pattern: ^;.$|^\w{4}$
