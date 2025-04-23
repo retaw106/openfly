@@ -6,7 +6,7 @@
 
 ---
 name: openfly.secondary.short.code
-version: "r_1.0"
+version: "v10.9z"
 sort: by_weight
 use_preset_vocabulary: false
 ...
@@ -22,11 +22,9 @@ use_preset_vocabulary: false
 打	d
 达	da
 道	dc
-东	ds
-堆	dv
 逗	dz
 嗯	e
-发	f
+非	f
 份	ff
 疯	fg
 复	fu
@@ -39,6 +37,7 @@ use_preset_vocabulary: false
 化	h
 壶	hu
 华	hx
+初	i
 扯	ie
 程	ig
 臭	iz
@@ -56,6 +55,7 @@ use_preset_vocabulary: false
 美	mw
 哪	n
 浓	ns
+屁	p
 期	q
 弃	qi
 缺	qt
@@ -77,7 +77,7 @@ use_preset_vocabulary: false
 室	ui
 守	uz
 之	v
-招	vc
+遮	ve
 症	vg
 终	vs
 位	w
@@ -89,6 +89,7 @@ use_preset_vocabulary: false
 心	xb
 型	xk
 凶	xs
+又	y
 野	ye
 杨	yh
 严	yj

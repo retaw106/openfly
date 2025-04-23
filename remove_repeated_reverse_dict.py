@@ -8,6 +8,7 @@ def main():
 
     header_str = ''
     spell_dict = {}
+    f_w = open(dst_path, 'w', encoding='utf-8')
     with open(src_path, 'r', encoding='utf-8') as f:
         for i in range(header_line):
             line = f.readline()
@@ -21,18 +22,13 @@ def main():
             if word in spell_dict:
                 if spell not in spell_dict[word]:
                     spell_dict[word].append(spell)
+                    f_w.write(word + '\t' + spell + '\n')
             else:
                 spell_dict[word] = [spell]
+                f_w.write(word + '\t' + spell + '\n')
             
             line = f.readline()
-
-    with open(dst_path, 'w', encoding='utf-8') as f:
-        f.write(header_str)
-
-        for word in spell_dict:
-            for spell in spell_dict[word]:
-                f.write(word + '\t' + spell + '\n')
-
+    f_w.close()
 
 if __name__ == '__main__':
     main()

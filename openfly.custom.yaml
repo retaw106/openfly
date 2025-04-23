@@ -1,6 +1,1 @@
 # encoding: utf-8
-patch:
-  "switches/+":
-    - name: openfly_enable_2nd_short
-      reset: 1
-      states: ["二简关", "二简开"]
